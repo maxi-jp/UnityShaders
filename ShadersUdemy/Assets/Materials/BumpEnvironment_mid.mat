@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BumpDiffuseChallenge1
-  m_Shader: {fileID: 4800000, guid: 88c668fcf8faa784699335b5a88858d9, type: 3}
+  m_Name: BumpEnvironment_mid
+  m_Shader: {fileID: 4800000, guid: f88db9469f4ed1c4885fd953346eeb2d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -57,6 +57,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _myBump:
         m_Texture: {fileID: 2800000, guid: 6c4bc467c010ac540a6aef2ae59038e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myCube:
+        m_Texture: {fileID: 8900000, guid: 18ec2d52be8f4524a97c25a2ed27838e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myDiffuse:
